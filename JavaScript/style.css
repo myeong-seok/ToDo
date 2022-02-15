@@ -1,3 +1,24 @@
+#quote,
+#clock,
+#greeting,
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+#login {
+  display: flex;
+  justify-content: center;
+}
 .hidden {
   display: none;
+}
+
+#todo-list {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-image: url("img src");
 }
